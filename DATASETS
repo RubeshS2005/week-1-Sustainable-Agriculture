@@ -1,9 +1,0 @@
-📂 Dataset
-
-Source: New Plant Diseases Dataset (Kaggle)
-
- - Size: ~3 GB (not included in this repository due to GitHub limits)
-
- - Classes: Healthy + multiple disease categories
-
- - Sample Data: A smaller dataset (~20 MB) is included in this repo for testing the pipeline.
