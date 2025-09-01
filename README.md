@@ -39,29 +39,6 @@ The aim is to build an AI-powered system that detects plant diseases from leaf i
 - Supports farmers in improving yield & income
 - Encourages AI-driven solutions for long-term sustainability
 
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/plant-disease-detection.git
-cd plant-disease-detection
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open and run the Jupyter Notebook in Google Colab:
-
-Upload dataset (or download via Kaggle API)
-
-Train the model
-
-(Optional) Run the web app:
-
-streamlit run app.py
-
 🌍 Sustainable Agriculture Impact
 
 Early detection reduces major crop losses.
