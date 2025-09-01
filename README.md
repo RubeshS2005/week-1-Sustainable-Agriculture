@@ -13,61 +13,31 @@ The aim is to build an AI-powered system that detects plant diseases from leaf i
 
 📂 Dataset
 
-Source: Kaggle – New Plant Diseases Dataset
-
-Size: ~3 GB
-
-Classes: Multiple crop species (healthy + diseased leaves)
-
-Preprocessing: Resizing, normalization, and data augmentation for robustness.
+- Source: Kaggle – New Plant Diseases Dataset
+- Size: ~3 GB
+- Classes: Multiple crop species (healthy + diseased leaves)
+- Preprocessing: Resizing, normalization, and data augmentation for robustness
 
 ⚙️ Tech Stack
 
-Programming Language: Python 🐍
-
-Libraries/Frameworks: TensorFlow, Keras, NumPy, OpenCV, scikit-learn, Matplotlib
-
-Platform: Google Colab (training & experimentation)
-
-Deployment (Optional): Streamlit / Flask for interactive demo
+- Programming Language: Python
+- Libraries/Frameworks: TensorFlow, Keras, NumPy, OpenCV, scikit-learn, Matplotlib
+- Platform: Google Colab
+- Deployment (Optional): Streamlit / FlaskFlask for interactive demo
 
 🛠️ Workflow
 
-Data Preprocessing
-
-Load dataset from Kaggle/Drive
-
-Resize & normalize images
-
-Augmentation (rotation, flip, zoom)
-
-Model Development
-
-Transfer Learning (MobileNet, ResNet, EfficientNet)
-
-Training & Validation
-
-Save trained model
-
-Evaluation
-
-Accuracy, Precision, Recall, F1-score
-
-Confusion matrix & visualization
-
-Deployment (Optional)
-
-Build a simple interface (Streamlit)
-
-Upload leaf image → get disease prediction
+- Data Preprocessing: Load dataset, resize, normalize, augment
+- Model Development: Transfer Learning (MobileNet, ResNet, EfficientNet), train & validate
+- Evaluation: Accuracy, Precision, Recall, F1-score, confusion matrix
+- Deployment: Streamlit demo for predictions
 
 📊 Results (Expected)
 
-Classification Accuracy: ~90%+ (depending on model & training)
-
-Ability to distinguish between healthy vs diseased leaves
-
-Practical tool for agriculture and sustainability research
+- Early detection reduces major crop losses
+- Minimizes pesticide use, eco-friendly farming
+- Supports farmers in improving yield & income
+- Encourages AI-driven solutions for long-term sustainability
 
 🚀 How to Run
 
@@ -104,15 +74,13 @@ Encourages AI-driven solutions in agriculture for long-term sustainability.
 
 📌 Future Enhancements
 
-Develop a mobile app for farmers (offline use).
-
-Add real-time camera detection.
-
-Expand dataset with more crops & diseases.
+- Develop a mobile app for offline farmer use
+- Add real-time camera detection
+- Expand dataset with more crops & diseases
 
 👨‍💻 Author
 
-Your Name
+Rubesh S
 
 Internship: Edunet Foundation Internship (AICTE)
 
